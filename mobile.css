@@ -1,0 +1,204 @@
+@media screen and (max-width:640px) {
+
+    /* Popular Tour Starts Her */
+    body {
+        width: 375px;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .nav-list {
+        display: block;
+        text-align: center;
+    }
+
+    .logo-div {
+        margin-left: 70px;
+    }
+
+    /* Nav Ends HEre */
+
+
+    .banner-content {
+        padding: 10px;
+        color: white;
+    }
+
+    .banner-section h1 {
+        font-size: 22px;
+    }
+
+    .banner-section p {
+        font-size: 14px;
+    }
+
+
+
+    .tour-container {
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .tour-container button {
+        margin-bottom: 10px;
+    }
+
+    .tour-container img {
+        width: 335px;
+        height: 342px;
+    }
+
+    /* Popular Tour Ends Her */
+
+    /* Destination Starts Here */
+    .row1,
+    .row2,
+    .row3 {
+        display: block;
+    }
+
+    .country-container {
+        padding: 40px;
+    }
+
+    .maldives {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+        width: 335px;
+        height: 176px;
+    }
+
+    .indonesia {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+        width: 335px;
+        height: 176px;
+    }
+
+    .srilanka {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+        width: 335px;
+        height: 176px;
+    }
+
+    .north-america {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+        width: 335px;
+        height: 176px;
+
+    }
+
+    .kashmir {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+        width: 335px;
+        height: 176px;
+    }
+
+    .bangladesh {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+        width: 335px;
+        height: 176px;
+    }
+
+    .bandarban {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+        width: 335px;
+        height: 176px;
+    }
+
+    /* Destination Ends Here */
+
+    /* Choose Starts HEre */
+    .card-row1 {
+        display: block;
+    }
+
+    .card {
+        width: 335px;
+        height: 289px;
+    }
+
+    .card img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 14px;
+
+    }
+
+    .card-row2 {
+        display: block;
+        margin-top: 20px;
+    }
+    .choose-text-container {
+        text-align: center;
+    }
+
+    /* Choose Ends HEre */
+
+
+    /* Place Starts HEre */
+    .place-container {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .video-container h4 {
+        font-size: 15px;
+    }
+
+    video {
+        width: 335px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    /* Place Ends Here */
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+  
+        margin: auto;
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    .newsletter-input{
+        width: 335px;
+        height: 400px;
+    }
+
+    .newsletter-container input {
+        width: 288px;
+        height: 52px;
+    }
+
+    .subscribe-btn {
+        width: 288px;
+        height: 52px;
+    }
+
+    .newsletter-container .image-container img {
+        width: 335px;
+        height: 300px;
+        margin-top: 20px;
+        display: block;
+
+    }
+
+    footer {
+        display: block;
+        
+    }
+}

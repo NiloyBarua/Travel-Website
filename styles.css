@@ -1,5 +1,431 @@
-body{
-    margin: 0;
+body {
+    margin: 2rem;
     padding: 0;
     box-shadow: none;
+    font-family: "Mulish", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 3rem;
+    height: 3.5rem;
+}
+
+.logo-title-color {
+    color: #FF5400;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 30px;
+    font-size: 18px;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #424247;
+}
+
+
+
+/* Banner Section Starts Here */
+.banner-section {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+
+.banner-content {
+    padding: 150px;
+    color: white;
+}
+
+.banner-section h1 {
+    font-size: 64px;
+}
+
+.banner-section p {
+    font-size: 16px;
+}
+
+
+.input-section input,
+.btn-banner {
+    width: 174px;
+    height: 52px;
+    border-radius: 13px;
+    margin-right: 13px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.input-section input::placeholder {
+    padding: 30px;
+    background-color: white;
+    opacity: 100%;
+
+}
+
+
+.btn-banner {
+    background-color: #FF5400;
+    color: white;
+}
+
+/* Banner Section Ends Here */
+
+
+
+/* tour Section Starts Here */
+.tour-container {
+    display: flex;
+    padding: 70px;
+    gap: 80px;
+    align-items: center;
+
+}
+
+.tour-container h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tour-container p,
+li {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.tour-container button {
+    background-color: #FF5400;
+    color: white;
+    width: 174px;
+    height: 52px;
+    border-radius: 13px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Tour Section Ends Here */
+
+/* Destination Starts Here */
+.destination-header {
+    text-align: center;
+}
+
+.destination-header h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.destination-header {
+    font-size: 16px;
+}
+
+.country-container {
+    padding: 80px;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.maldives {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Maldives.png);
+    width: 573px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.indonesia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Indonesia.png);
+    width: 573px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.srilanka {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Srilanka.png);
+    width: 374px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.north-america {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/North\ America.png);
+    width: 474px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.kashmir {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images//Kashmir.png);
+    width: 274px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.bangladesh {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Bangladesh.png);
+    width: 473px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+.bandarban {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(./Images/Bandarban.png);
+    width: 673px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+/* Destination Ends Here */
+
+
+/* Choose Starts HEre */
+.choose-text-container {
+    text-align: center;
+}
+
+.choose-text-container h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.choose-text-container p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.card-row1 {
+    display: flex;
+    gap: 30px;
+}
+
+.card-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 40px;
+    background-color: rgb(240, 238, 236);
+    width: 573px;
+    height: 284px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 16px;
+
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+}
+
+/* Choose Ends HEre */
+
+
+/* Place Starts Here */
+.place-container {
+    display: flex;
+    padding: 50px;
+    gap: 80px;
+    align-items: center;
+}
+
+.place-container h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.place-container p {
+    color: #5A5A5D;
+    font-size: 16px;
+}
+
+.place-container li {
+    color: #131318;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.place-container button {
+    background-color: #FF5400;
+    color: white;
+    width: 174px;
+    height: 52px;
+    border-radius: 13px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.video-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.video-container h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+video {
+    width: 610px;
+    height: 424px;
+}
+
+/* Place Ends Here */
+
+/* Newsletter Starts Here */
+.newsletter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.newsletter-input {
+    width: 474px;
+    height: 422px;
+    border: 2px solid #FF5400;
+    padding: 20px;
+
+}
+
+.image-container img {
+    width: 672px;
+    height: 422px;
+}
+
+.newsletter-container input {
+    width: 393px;
+    height: 52px;
+    border-radius: 18px;
+    border: none;
+    background-color: wheat;
+
+}
+
+.newsletter-container input::placeholder {
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.subscribe-btn {
+    background-color: #FF5400;
+    color: white;
+    width: 393px;
+    height: 52px;
+    border-radius: 13px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Newsletter Ends Here */
+
+footer {
+    background-color: whitesmoke;
+    padding: 50px;
+    margin-top: 100px;
+
+}
+
+.footer-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    gap: 10px;
+
+}
+
+.footer-container p {
+    font-size: 16px;
+    color: #5A5A5D;
 }
